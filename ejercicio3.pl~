@@ -6,7 +6,7 @@ padece(juan, hepatitis).
 padece(maria, gripe).
 padece(carlos, acidez).
 
-sintomade(fiebre,gripe).
+sintomade(giebre,gripe).
 sintomade(cansancio,hepatitis).
 sintomade(ardorestomacal,acidez).
 sintomade(cansancio,gripe).
