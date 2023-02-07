@@ -2,33 +2,33 @@
 % Archivo: aprexamen.pl
 
 % Hechos o base de conocimientos
-persona('maria').
+persona(maria).
 
-persona('alfredo').
+persona(alfredo).
 
-persona('tomas').
+persona(tomas).
 
-persona('susana').
+persona(susana).
 
-persona('juan').
+persona(juan).
 
-lee_libro('alfredo').
+lee_libro(alfredo).
 
-lee_libro('maria').
+lee_libro(maria).
 
-asiste_a_clases('alfredo').
+asiste_a_clases(alfredo).
 
-asiste_a_clases('maria').
+asiste_a_clases(maria).
 
-realiza_ejercicios('alfredo').
+realiza_ejercicios(alfredo).
 
-realiza_ejercicios('maria').
+realiza_ejercicios(maria).
 
-sabe_todo('tomas').
+sabe_todo(tomas).
 
-asesor('maria','juan').
+asesor(maria,juan).
 
-asesor('juan','susana').
+asesor(juan,susana).
 
 
 % Reglas
