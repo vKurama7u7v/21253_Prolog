@@ -1,0 +1,54 @@
+% Base de Conocimientos.
+%
+
+% Familia de Jerry.
+persona(Jerry, M).
+persona(Gerardo, M).
+persona(Veronica, F).
+persona(Alejandro, M).
+
+% Abuelos Paternos de Jerry.
+persona(Lucio, M).
+persona(Esther, F).
+
+% Abuelos Maternos de Jerry.
+persona(Julio, M).
+persona(Norma, F).
+
+% Familia Paternos de Jerry.
+persona(Antonio, M).
+persona(Vange, F).
+persona(Mariela, F).
+persona(Marla, F).
+persona(Antonio2, M).
+
+persona(Alejandro2, M).
+persona(Berenice, F).
+persona(Daniela, F).
+persona(Alejandra, F).
+
+persona(Fernando, M).
+persona(Alesandra, F).
+persona(Sofia, F).
+persona(Lucio2, M).
+persona(Leonardo, M).
+persona(Iktan, M).
+persona(Itzia, F).
+
+% Familia Maternos de Jerry.
+persona(Jose, M).
+persona(Norma2, F).
+persona(Jose2, M).
+persona(Luis, M).
+persona(Aragui, F).
+
+persona(Alejandro3, M).
+persona(Alejandra2, F).
+persona(Alejandro4, M).
+persona(Alejandra3, F).
+persona(Emanuel, M).
+
+persona(Juan, M).
+persona(Maribel, F).
+persona(Santiago, M).
+persona(Ines, F).
