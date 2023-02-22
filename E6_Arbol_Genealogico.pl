@@ -14,7 +14,7 @@ persona(Esther, F).
 persona(Julio, M).
 persona(Norma, F).
 
-% Familia Paternos de Jerry.
+% Familia Paterna de Jerry.
 persona(Antonio, M).
 persona(Vange, F).
 persona(Mariela, F).
@@ -34,7 +34,7 @@ persona(Leonardo, M).
 persona(Iktan, M).
 persona(Itzia, F).
 
-% Familia Maternos de Jerry.
+% Familia Materna de Jerry.
 persona(Jose, M).
 persona(Norma2, F).
 persona(Jose2, M).
@@ -60,6 +60,97 @@ madre_de(Veronica, Alejandro).
 esposo_de(Gerardo, Veronica).
 esposa_de(Veronica, Gerardo).
 
+hijo_de(Jerry, Gerardo).
+hijo_de(Jerry, Veronica).
+hijo_de(Alejandro, Gerardo).
+hijo_de(Alejandro, Veronica).
+
+hija_de(Mariela, Antonio).
+hija_de(Mariela, Vange).
+hija_de(Marla, Antonio).
+hija_de(Marla, Vange).
+hijo_de(Antonio2, Antonio).
+hijo_de(Antonio2, Vange).
+
+hija_de(Daniela, Alejandro2).
+hija_de(Daniela, Berenice).
+hija_de(Alejandra, Alejandro2).
+hija_de(Alejandra, Berenice).
+
+hijo_de(Iktan, Fernando).
+hijo_de(Iktan, Alesandra).
+hija_de(Itzia, Fernando).
+hija_de(Itzia, Alesandra).
+
+hijo_de(Jose2, Jose).
+hijo_de(Jose2, Norma2).
+hijo_de(Luis, Jose).
+hijo_de(Luis, Norma2).
+hija_de(Aragui, Jose).
+hija_de(Aragui, Norma2).
+
+hija_de(Alejandra3, Alejandro3).
+hija_de(Alejandra3, Alejandra2).
+hijo_de(Alejandro4, Alejandro3).
+hijo_de(Alejandro4, Alejandra2).
+hija_de(Emanuel, Alejandro3).
+hija_de(Emanuel, Alejandra2).
+
+hijo_de(Santiago, Juan).
+hijo_de(Santiago, Maribel).
+hija_de(Ines, Juan).
+hija_de(Ines, Maribel).
+
+padre_de(Antonio, Mariela).
+madre_de(Vange, Mariela).
+padre_de(Antonio, Marla).
+madre_de(Vange, Marla).
+padre_de(Antonio, Antonio2).
+madre_de(Vange, Antonio2).
+
+padre_de(Alejandro2, Daniela).
+madre_de(Berenice, Daniela).
+padre_de(Alejandro2, Alejandra).
+madre_de(Berenice, Alejandra).
+
+padre_de(Fernando, Iktan).
+madre_de(Alesandra, Iktan).
+padre_de(Fernando, Itzia).
+madre_de(Alesandra, Itzia).
+
+padre_de(Jose, Jose2).
+madre_de(Norma2, Jose2).
+padre_de(Jose, Luis).
+madre_de(Norma2, Luis).
+padre_de(Jose, Aragui).
+madre_de(Norma2, Aragui).
+
+padre_de(Alejandro3, Alejandra3).
+madre_de(Alejandra2, Alejandra3).
+padre_de(Alejandro3, Alejandro4).
+madre_de(Alejandra2, Alejandro4).
+padre_de(Alejandro3, Emanuel).
+madre_de(Alejandra2, Emanuel).
+
+padre_de(Juan, Santiago).
+madre_de(Maribel, Santiago).
+padre_de(Juan, Ines).
+madre_de(Maribel, Ines).
+
+esposo_de(Antonio, Vange).
+esposa_de(Vange, Antonio).
+esposo_de(Alejandro2, Berenice).
+esposa_de(Berenice, Alejandro2).
+esposo_de(Fernando, Alesandra).
+esposa_de(Alesandra, Fernando).
+
+esposo_de(Jose, Norma2).
+esposa_de(Norma2, Jose).
+esposo_de(Alejandro3, Alejandra2).
+esposa_de(Alejandra2, Alejandro3).
+esposo_de(Juan, Maribel).
+esposa_de(Maribel, Juan).
+
 hermano_de(Alejandro, Jerry).
 hermano_de(Jerry, Alejandro).
 
@@ -68,9 +159,18 @@ abuela_de(Esther, Jerry).
 abuelo_de(Julio, Jerry).
 abuela_de(Norma, Jerry).
 
+nieto_de(Jerry, Lucio).
+nieto_de(Jerry, Esther).
+nieto_de(Jerry, Julio).
+nieto_de(Jerry, Norma).
+
 hermano_de(Antonio, Gerardo).
 hermano_de(Alejandro2, Gerardo).
 hermano_de(Fernando, Gerardo).
+
+hermana_de(Norma2, Veronica).
+hermano_de(Alejandro3, Veronica).
+hermana_de(Maribel, Veronica).
 
 
 tio_de(Antonio, Jerry).
@@ -95,10 +195,8 @@ primo_de(Iktan, Jerry).
 primo_de(Itzia, Jerry).
 
 
-tio_de(Fernando, Jerry).
-tia_de(Alesandra, Jerry).
-primo_de(Jose, Jerry).
-primo_de(Norma2, Jerry).
+tio_de(Jose, Jerry).
+tia_de(Norma2, Jerry).
 primo_de(Jose2, Jerry).
 primo_de(Luis, Jerry).
 primo_de(Aragui, Jerry).
@@ -115,3 +213,5 @@ tio_de(Juan, Jerry).
 tia_de(Maribel, Jerry).
 primo_de(Santiago, Jerry).
 primo_de(Ines, Jerry).
+
+
