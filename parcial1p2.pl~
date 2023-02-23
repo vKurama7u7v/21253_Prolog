@@ -1,0 +1,10 @@
+% Base de conocimientos.
+mas_alto(juan, pedro).
+mas_alta(maria, juana).
+mas_bajo(maria, juana).
+miden_igual(juan, luis).
+
+% Reglas.
+son_iguales(A,B):- miden_igual(A,B).
+
+
